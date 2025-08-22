@@ -587,7 +587,7 @@ html, body { height: 100%; overflow-x: hidden; overflow-y: auto; font-family: 'C
 
 .sound-control {
     position: fixed;
-    top: 10px;
+    bottom: 200px;
     right: 10px;
     background: linear-gradient(135deg, rgba(0, 255, 136, 0.1), rgba(0, 191, 255, 0.1));
     border: 1px solid rgba(0, 255, 136, 0.3);
@@ -603,6 +603,23 @@ html, body { height: 100%; overflow-x: hidden; overflow-y: auto; font-family: 'C
     min-width: 60px;
 }
 
+.img-control {
+    position: fixed;
+    bottom: 50px;
+    right: 10px;
+    background: linear-gradient(135deg, rgba(0, 255, 136, 0.1), rgba(0, 191, 255, 0.1));
+    border: 1px solid rgba(0, 255, 136, 0.3);
+    border-radius: 8px;
+    padding: 6px;
+    font-size: 9px;
+    color: #00ff88;
+    z-index: 1002;
+    backdrop-filter: blur(3px);
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    min-width: 60px;
+}
 .sound-toggle {
     background: rgba(0, 255, 136, 0.2);
     border: 1px solid #00ff88;
