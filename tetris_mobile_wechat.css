@@ -587,8 +587,8 @@ html, body { height: 100%; overflow-x: hidden; overflow-y: auto; font-family: 'C
 
 .sound-control {
     position: fixed;
-    bottom: 200px;
-    right: 10px;
+    top: 10px;
+    left: 10px;
     background: linear-gradient(135deg, rgba(0, 255, 136, 0.1), rgba(0, 191, 255, 0.1));
     border: 1px solid rgba(0, 255, 136, 0.3);
     border-radius: 8px;
