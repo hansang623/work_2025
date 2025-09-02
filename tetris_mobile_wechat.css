@@ -523,7 +523,7 @@ html, body { height: 100%; overflow-x: hidden; overflow-y: auto; font-family: 'C
 @media screen and (min-height: 800px) {
     #gameCanvas {
         width: 280px;
-        height: 560px;
+        height: 90%;
     }
     
     .control-btn {
